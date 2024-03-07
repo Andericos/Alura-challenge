@@ -104,3 +104,23 @@ div p:before{
     height: 70px;
     width: 253px;
 }
+
+@media screen and (max-width: 480px){
+    main{
+        display: inline;
+    }
+    .decriptionarea{
+        position:relative;
+        margin-left: 240px;
+    }
+    .botones{
+        display: inline-block;
+        margin-left: 240px;
+    }
+    #encriptar, #desencriptar{
+        margin: auto;
+        
+        ;
+    }
+}
+    
