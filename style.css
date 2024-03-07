@@ -1,0 +1,106 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-variation-settings: "slnt" 0;
+}
+header{
+    margin-bottom: 20px;
+}
+.aluralogo{
+    margin: 30px auto;
+}
+body{
+    background-color: rgb(76, 16, 16);
+}
+main{
+    display: flex;
+}
+.input{
+    margin-bottom: 480px;
+}
+.textoUsuario{
+    margin: 10px 0 50px 280px;
+    border: none;
+    background-color: rgb(76, 16, 16);
+    width: 500px;
+    padding: 10px;
+    font-size: 2em;
+}
+.textoUsuario:focus{
+    outline: none;
+    border: none;
+}
+.botones{
+    display:inline-block;
+}
+#encriptar{
+    margin-left: 250px;
+    margin-top: 5px;
+    height: 67px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+#encriptar:hover{
+    height: 70px;
+    width: 253px;
+}
+#desencriptar{
+    background: rgb(69, 67, 67);
+    margin-left: 14px;
+    margin-top: 5px;
+    height: 67px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+#desencriptar:hover{
+    height: 70px;
+    width: 253px;
+}
+div p{
+    margin-left: 380px;
+    vertical-align: bottom;
+    font-size: smaller;
+}
+div p:before{
+    content: "ⓘ";
+    margin-right: 3px;
+}
+
+.decriptionarea{
+    background-image: url("imagenes/zphm8ZCU_400x400.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    width: 300px;
+    height: 590px;
+    margin-left: 500px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    position:fixed;
+    font-size: 2em;
+}
+.decriptionarea:focus{
+    outline: none;
+    border: none;
+}
+#botoncopiar{
+    margin-left: 543px;
+    margin-top: 610px;
+    height: 67px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+}
+#botoncopiar:hover{
+    height: 70px;
+    width: 253px;
+}
